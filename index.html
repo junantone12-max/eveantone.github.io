@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jhon Evriel A. Antone — Portfolio</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styleexp.css" />
+</head>
+<body>
+
+  <!-- Cursor-following ambient glow -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- Growing vine line that animates as you scroll -->
+  <svg class="vine" viewBox="0 0 60 2400" preserveAspectRatio="none" aria-hidden="true">
+    <path class="vine-path" d="M30 0
+      C 10 150, 50 300, 30 450
+      C 10 600, 50 750, 30 900
+      C 10 1050, 50 1200, 30 1350
+      C 10 1500, 50 1650, 30 1800
+      C 10 1950, 50 2100, 30 2250
+      L 30 2400" />
+  </svg>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav-logo">Jhon<span>.</span>Antone</a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-blob" aria-hidden="true">
+      <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <path fill="currentColor" d="M421,313Q411,376,358,415Q305,454,243,440Q181,426,135,381Q89,336,86,272Q83,208,131,166Q179,124,242,108Q305,92,361,128Q417,164,425,225Q433,286,421,313Z"></path>
+      </svg>
+    </div>
+
+    <p class="eyebrow">Incoming CS Student &amp; Self-Taught Web Developer</p>
+    <h1 class="hero-title">
+      <span class="word" style="animation-delay:0.05s">Building</span> <span class="word" style="animation-delay:0.15s">skills</span><br>
+      <span class="word" style="animation-delay:0.25s">that</span> <span class="word" style="animation-delay:0.35s"><em>grow</em></span> <span class="word" style="animation-delay:0.45s">one</span> <span class="word" style="animation-delay:0.55s">step</span> <span class="word" style="animation-delay:0.65s">at</span> <span class="word" style="animation-delay:0.75s">a</span> <span class="word" style="animation-delay:0.85s">time.</span>
+    </h1>
+    <p class="hero-sub">
+      I'm Jhon Evriel A. Antone — a STEM senior high graduate from the Philippines,
+      heading into Computer Science. I learn by building: from web projects on
+      freeCodeCamp to logic systems made entirely out of Minecraft command blocks.
+    </p>
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-primary">See my work</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+
+    <div class="scroll-cue" aria-hidden="true">
+      <span></span>
+      Scroll
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="section-tag">
+      <span class="leaf-dot"></span>
+      <span>About</span>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-photo" aria-hidden="true">
+        <div class="photo-frame">
+          <span>Photo</span>
+        </div>
+        <div class="photo-ring"></div>
+      </div>
+
+      <div class="about-text">
+        <h2>From honor roll <br>to first commits.</h2>
+        <p>
+          I just finished senior high as a STEM track student, graduating with
+          High Honors in a cohort where even top distinctions were rare. I'm
+          drawn to computer science, programming, and systems thinking — the
+          kind of problems where you break something complicated into pieces
+          that actually make sense.
+        </p>
+        <p>
+          Right now I'm preparing for college, working through DOST scholarship
+          requirements while teaching myself web development through
+          freeCodeCamp. On the side, I build logic systems and mini-games using
+          Minecraft command blocks — partly for fun, partly because it's the
+          best "free" systems-design sandbox I've found. When I'm not coding,
+          I'm usually building Lego sets or adding to my anime figure collection.
+        </p>
+
+        <ul class="about-stats">
+          <li>
+            <span class="stat-number">High</span>
+            <span class="stat-label">Honors graduate, STEM track</span>
+          </li>
+          <li>
+            <span class="stat-number">FCC</span>
+            <span class="stat-label">Self-paced freeCodeCamp learner</span>
+          </li>
+          <li>
+            <span class="stat-number">DOST</span>
+            <span class="stat-label">Scholarship pathway, in progress</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="section-tag">
+      <span class="leaf-dot"></span>
+      <span>Skills</span>
+    </div>
+    <h2 class="section-title">What I bring to the table</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">🌿</div>
+        <h3>Web Development</h3>
+        <p>Building real projects with HTML, CSS, and JavaScript through freeCodeCamp's curriculum, one certification at a time.</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🍃</div>
+        <h3>Programming &amp; Logic</h3>
+        <p>Strong foundation from STEM coursework — comfortable breaking problems into clear, step-by-step solutions.</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🌱</div>
+        <h3>Systems Thinking</h3>
+        <p>Designing logic gates, mini-games, and automated systems using Minecraft command blocks for fun and practice.</p>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🪴</div>
+        <h3>Continuous Learning</h3>
+        <p>High Honors graduate with a track record of consistent academic performance and a habit of learning by doing.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section work" id="work">
+    <div class="section-tag">
+      <span class="leaf-dot"></span>
+      <span>Projects &amp; Builds</span>
+    </div>
+    <h2 class="section-title">Things I've made so far</h2>
+
+    <div class="work-grid">
+
+      <article class="work-card">
+        <div class="work-image" style="--tint: #4f7a5c;">
+          <span>Project 01</span>
+        </div>
+        <div class="work-info">
+          <h3>freeCodeCamp Tribute Page</h3>
+          <p>A responsive tribute page built as part of the Responsive Web Design certification — my first real layout from scratch.</p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>freeCodeCamp</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-image" style="--tint: #6f8f5a;">
+          <span>Project 02</span>
+        </div>
+        <div class="work-info">
+          <h3>Command Block Logic Systems</h3>
+          <p>A set of custom Minecraft mechanics — scoreboards, timers, and mini-games — built entirely with command blocks and redstone.</p>
+          <div class="tags">
+            <span>Minecraft</span>
+            <span>Logic Design</span>
+            <span>Game Systems</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-image" style="--tint: #3f6b4a;">
+          <span>Project 03</span>
+        </div>
+        <div class="work-info">
+          <h3>This Portfolio Site</h3>
+          <p>A green, nature-themed portfolio coded by hand to practice layout, responsive design, and small scroll animations.</p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="work-card">
+        <div class="work-image" style="--tint: #5a8c69;">
+          <span>Project 04</span>
+        </div>
+        <div class="work-info">
+          <h3>Brick Log — Collection Tracker (concept)</h3>
+          <p>A planned JavaScript app to log and organize my Lego sets and anime figure collection — next on my learning roadmap.</p>
+          <div class="tags">
+            <span>JavaScript</span>
+            <span>Planning</span>
+            <span>Personal Project</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="contact-blob" aria-hidden="true">
+      <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <path fill="currentColor" d="M431,305Q433,360,393,396Q353,432,300,440Q247,448,193,427Q139,406,108,357Q77,308,90,251Q103,194,148,158Q193,122,250,118Q307,114,358,144Q409,174,420,232Q431,290,431,305Z"></path>
+      </svg>
+    </div>
+
+    <div class="section-tag light">
+      <span class="leaf-dot"></span>
+      <span>Contact</span>
+    </div>
+    <h2 class="contact-title">Let's connect<br>and grow.</h2>
+    <p class="contact-sub">
+      I'm always open to chatting about CS, web dev, scholarships, or
+      swapping Lego and anime recommendations. Feel free to reach out.
+    </p>
+
+    <form class="contact-form" onsubmit="event.preventDefault(); alert('Thanks! This form is a template — connect it to your backend or a service like Formspree.');">
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-row">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+
+    <div class="socials">
+      <a href="#" aria-label="GitHub">GitHub</a>
+      <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      <a href="#" aria-label="Dribbble">Dribbble</a>
+      <a href="#" aria-label="Email">Email</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Jhon Evriel A. Antone. Built with HTML, CSS, and a lot of patience.</p>
+  </footer>
+
+  <script src="scriptexp.js" defer></script>
+
+</body>
+</html>
